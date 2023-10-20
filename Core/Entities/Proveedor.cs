@@ -13,5 +13,7 @@ namespace Core.Entities
         public TipoPersona TipoPersonas { get; set; }
         public int IdMunicipio { get; set; }
         public Municipio Municipios { get; set; }
+        public ICollection<InsumoProveedor>InsumoProveedores {get; set;}
+        
     }
 }

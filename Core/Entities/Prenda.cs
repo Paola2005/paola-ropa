@@ -13,7 +13,7 @@ namespace Core.Entities
         public double ValorUnitUsd { get; set; }
         public int IdEstado { get; set; }
         public Estado Estados {get; set;}
-        public int TipoProteccion { get; set; }
+        public int IdTipoProteccion { get; set; }
         public TipoProteccion TiposProtecciones { get; set; }
         public int IdGenero { get; set; }
         public Genero Generos { get; set; }

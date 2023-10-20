@@ -12,5 +12,6 @@ namespace Core.Entities
         public int StockMin { get; set; }
         public int StockMax { get; set; }
         public ICollection<InsumoPrenda>InsumoPrendas {get; set;}
+        public ICollection<InsumoProveedor>InsumoProveedores {get; set;}
     }
 }

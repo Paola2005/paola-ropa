@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace Core.Entities
 {
-    public class InsumoProveedor
+    public class InsumoProveedor:BaseEntity
     {
-        public int IdInsumo { get; set; }
+        public int IdInsumo{ get; set; }
         public Insumo Insumos { get; set; }
         public int IdProveedor { get; set; }
         public Proveedor Proveedores { get; set; }
