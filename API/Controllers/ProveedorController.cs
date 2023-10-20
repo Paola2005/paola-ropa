@@ -8,5 +8,7 @@ namespace API.Controllers
     public class ProveedorController
     {
         
+
+        
     }
 }
